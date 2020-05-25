@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+ldap:
+  url: ldap://192.168.38.12:30509
+  host: 192.168.38.12
+  port: 30509
+  base: dc=in,dc=dnr
+  login: cn=admin,dc=in,dc=dnr
+  password: 4444
